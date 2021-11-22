@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Chicken Selling</string>
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="email">Email</string>
+    <string name="register">Register</string>
+    <string name="item_id">Item ID</string>
+    <string name="item_description">Item Description</string>
+    <string name="unit_price">Unit Price</string>
+    <string name="save">Save</string>
+</resources>

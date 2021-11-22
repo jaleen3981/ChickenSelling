@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/defaultTextSize"
+            android:text="@string/name"
+            />
+
+        <EditText
+            android:id="@+id/editText_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="@string/name"
+            android:inputType="textPersonName"
+            android:textSize="@dimen/defaultTextSize" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/defaultTextSize"
+            android:text="@string/email"
+            />
+
+        <EditText
+            android:id="@+id/editText_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="@string/email"
+            android:inputType="textEmailAddress"
+            android:textSize="@dimen/defaultTextSize" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/defaultTextSize"
+            android:text="@string/address"
+            />
+
+        <EditText
+            android:id="@+id/editText_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="@string/address"
+            android:inputType="textPostalAddress"
+            android:textSize="@dimen/defaultTextSize" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/defaultTextSize"
+        android:text="@string/register" />
+
+
+</LinearLayout>
